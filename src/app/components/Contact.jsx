@@ -4,7 +4,7 @@ import Image from "next/image"
 
 export default function Contact() {
     return (
-        <section className='p-20'id="contact pb-10">
+        <section className='p-20'id="contact">
             <h1 className='font-bold text-2xl pb-4 text-blue-600'>Contact</h1>
             <div className='flex flex-row'>
                 <a href="https://www.linkedin.com/in/amine-hamdi-2842412b8/" target="_blank" rel="noopener noreferrer">
