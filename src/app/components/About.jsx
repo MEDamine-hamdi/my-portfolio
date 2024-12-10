@@ -39,8 +39,20 @@ export default function About() {
             {/* Projects Section */}
             <div className="mt-8">
                 <h1 className="font-bold text-xl sm:text-2xl md:text-3xl pb-4 text-blue-600">Projects</h1>
-                <div>
-                    {/* Add project-related content */}
+                <div className="flex flex-wrap gap-8 justify-center">
+                    {/* Tuntel Website Project */}
+                    <div className="max-w-xs p-4 border-2 rounded-xl text-center shadow-lg">
+                        <h2 className="font-bold text-lg">Tuntel Website</h2>
+                        <p className="mt-2">A professional website built for Tuntel, focusing on telecommunications services and user engagement.</p>
+                        <a href="/tuntel" className="text-blue-600 mt-4 block">View Project</a>
+                    </div>
+
+                    {/* Heart Disease Detection AI Project */}
+                    <div className="max-w-xs p-4 border-2 rounded-xl text-center shadow-lg">
+                        <h2 className="font-bold text-lg">Heart Disease Detection with AI</h2>
+                        <p className="mt-2">Using machine learning to predict and detect heart disease based on medical data, providing health insights.</p>
+                        <a href="/heart-disease-ai" className="text-blue-600 mt-4 block">View Project</a>
+                    </div>
                 </div>
             </div>
         </section>
