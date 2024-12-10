@@ -10,7 +10,7 @@ import heart from '../../../public/heart.jpg';
 import tuntel from '../../../public/tuntel.png'; // Import the image
 import sql from '../../../public/sql.png';
 import mongo from '../../../public/mongo.png';
-
+import android from '../../../public/andr.png';
 import Image from "next/image";
 
 export default function About() {
@@ -34,6 +34,9 @@ export default function About() {
                 <div className="flex flex-wrap gap-4 items-center justify-center mt-4">
                     <Image src={mongo} alt="MongoDB Logo" className="w-12 h-12 sm:w-16 sm:h-16" />
                     <Image src={sql} alt="SQL Logo" className="w-12 h-12 sm:w-16 sm:h-16" />
+                </div>
+                <div className="flex flex-wrap gap-4 items-center justify-center mt-4">
+                    <Image src={android} alt="MongoDB Logo" className="w-12 h-12 sm:w-16 sm:h-16" />
                 </div>
             </div>
 
