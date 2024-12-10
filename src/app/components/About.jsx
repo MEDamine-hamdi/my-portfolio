@@ -6,7 +6,8 @@ import node from '../../../public/node.png';
 import py from '../../../public/py.png';
 import c from '../../../public/c.png';
 import java from '../../../public/java.png';
-
+import heart from '../../../public/heart.jpg';
+import tuntel from '../../../public/tuntel.png'; // Import the image
 import sql from '../../../public/sql.png';
 import mongo from '../../../public/mongo.png';
 
@@ -42,13 +43,15 @@ export default function About() {
                 <div className="flex flex-wrap gap-8 justify-center">
                     {/* Tuntel Website Project */}
                     <div className="max-w-xs p-4 border-2 rounded-xl text-center shadow-lg">
+                        <Image src={tuntel} alt="Tuntel Logo" className="w-full h-auto rounded-xl mb-4" />
                         <h2 className="font-bold text-lg">Tuntel Website</h2>
-                        <p className="mt-2">A professional website built for Tuntel, focusing on telecommunications services and user engagement.</p>
+                        <p className="mt-2">A contract management application for Tuntel, aimed at improving telecommunications contract management and user engagement.</p>
                         <a href="/tuntel" className="text-blue-600 mt-4 block">View Project</a>
                     </div>
 
                     {/* Heart Disease Detection AI Project */}
                     <div className="max-w-xs p-4 border-2 rounded-xl text-center shadow-lg">
+                        <Image src={heart} alt="Tuntel Logo" className="w-full h-auto rounded-xl mb-4" />
                         <h2 className="font-bold text-lg">Heart Disease Detection with AI</h2>
                         <p className="mt-2">Using machine learning to predict and detect heart disease based on medical data, providing health insights.</p>
                         <a href="/heart-disease-ai" className="text-blue-600 mt-4 block">View Project</a>
