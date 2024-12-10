@@ -16,21 +16,21 @@ export default function About() {
     return (
         <section className="w-full min-h-screen p-4 sm:p-6 md:p-10" id="about">
             {/* Skills Section */}
-            <div>
+            <div className="flex flex-col items-center justify-center">
                 <h1 className="font-bold text-xl sm:text-2xl md:text-3xl pb-4 text-blue-600">Skills</h1>
-                <div className="flex flex-wrap gap-4 items-center justify-start">
+                <div className="flex flex-wrap gap-4 items-center justify-center">
                     <Image src={js} alt="JavaScript Logo" className="w-12 h-12 sm:w-16 sm:h-16" />
                     <Image src={react} alt="React Logo" className="w-12 h-12 sm:w-16 sm:h-16" />
                     <Image src={node} alt="Node.js Logo" className="w-12 h-12 sm:w-16 sm:h-16 bg-slate-300 rounded-xl" />
                     <Image src={exp} alt="Express Logo" className="w-12 h-12 sm:w-16 sm:h-16" />
                     <Image src={php} alt="PHP Logo" className="w-12 h-12 sm:w-16 sm:h-16" />
                 </div>
-                <div className="flex flex-wrap gap-4 items-center justify-start mt-4">
+                <div className="flex flex-wrap gap-4 items-center justify-center mt-4">
                     <Image src={py} alt="Python Logo" className="w-12 h-12 sm:w-16 sm:h-16" />
                     <Image src={c} alt="C Language Logo" className="w-12 h-12 sm:w-16 sm:h-16" />
                     <Image src={java} alt="Java Logo" className="w-12 h-12 sm:w-16 sm:h-16 bg-slate-300 rounded-xl" />
                 </div>
-                <div className="flex flex-wrap gap-4 items-center justify-start mt-4">
+                <div className="flex flex-wrap gap-4 items-center justify-center mt-4">
                     <Image src={mongo} alt="MongoDB Logo" className="w-12 h-12 sm:w-16 sm:h-16" />
                     <Image src={sql} alt="SQL Logo" className="w-12 h-12 sm:w-16 sm:h-16" />
                 </div>
