@@ -16,7 +16,7 @@ export default function Home() {
                         My name is Amine, a motivated computer sciences student with a passion for building creative and efficient applications. Skilled in technologies like React, Node.js, and MongoDB, I focus on delivering user-friendly and impactful solutions. With a strong commitment to learning and growth, I approache every project with dedication, simplicity, and precision.
                     </p>
                     <div className="w-full sm:w-[70%] flex flex-row items-center justify-between mt-6">
-                        <button className="p-2 w-full sm:w-42 rounded-full bg-blue-700 text-sm sm:text-lg font-bold text-white">
+                        <button className="p-2  sm:w-42 rounded-full bg-blue-700 text-sm sm:text-lg font-bold text-white">
                             <a href="/cv_Hamdi_Mohamed_Amine.pdf" target="_blank" rel="noopener noreferrer">DOWNLOAD CV</a>
                         </button>
                         <button className="p-2 w-full sm:w-40 rounded-full border-blue-900 border-2 text-blue-700 text-sm sm:text-lg font-bold">
