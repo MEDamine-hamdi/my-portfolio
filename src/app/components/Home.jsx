@@ -17,7 +17,7 @@ export default function Home() {
                     </p>
                     <div className="w-full sm:w-[70%] flex flex-row items-center justify-between mt-6">
                         <button className="p-2  sm:w-42 rounded-full bg-blue-700 text-sm sm:text-lg font-bold text-white">
-                            <a href="/cv_Hamdi_Mohamed_Amine.pdf" target="_blank" rel="noopener noreferrer">DOWNLOAD CV</a>
+                            <a href="/Mohamed_Amine_Hamdi_CV.pdf" target="_blank" rel="noopener noreferrer">DOWNLOAD CV</a>
                         </button>
                         <button className="p-2 w-full sm:w-40 rounded-full border-blue-900 border-2 text-blue-700 text-sm sm:text-lg font-bold">
                             Hire Me
