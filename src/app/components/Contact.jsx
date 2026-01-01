@@ -9,7 +9,7 @@ export default function Contact() {
             {/* Social Links Section */}
             <div className="flex flex-wrap gap-4 mb-8 items-center">
                 <a
-                    href="https://www.linkedin.com/in/amine-hamdi-2842412b8/"
+                    href="https://www.linkedin.com/in/amine-hamdi-00bb40383/"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
